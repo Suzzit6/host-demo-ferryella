@@ -1,0 +1,58 @@
+
+// /* Search icon  */
+
+// /* // Main styles */
+
+// .searchBar {
+//     position: relative;
+//     width: 20rem;
+//     background: var(--color-brand);
+//     border-radius: var(--rad);
+//   }
+//    .searchBar .searchlabel, .searchInput {
+//     height: var(--height);
+//     font-family: var(--font-fam);
+//     border-radius: 5px;
+//     color: var(--color-dark);
+//     font-size: 1.1rem;
+//   }
+//   .searchBar .searchButton[type="search"] {
+//     outline: 0; 
+//     width: 100%;
+//     background: var(--color-light);
+//     padding: 0 1.6rem;
+//     border-radius: var(--rad);
+//     appearance: none; 
+//     transition: all var(--dur) var(--bez);
+//     transition-property: width, border-radius;
+//     z-index: 1;
+//     position: relative;
+//   }
+//    .searchBar .searchButton {
+//     display: block;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: var(--btn-width);
+//     font-weight: bold;
+//     background: var(--color-brand);
+//     border-radius: 0 var(--rad) var(--rad) 0;
+//   }
+//    .searchBar .searchButton:not(:placeholder-shown) {
+//     border-radius: var(--rad) 0 0 var(--rad);
+//     width: calc(100% - var(--btn-width));
+//     + button {
+//       display: block;
+//     }
+//   }
+//    .searchBar .searchlabel {
+//     position: absolute;
+//     clip: rect(1px, 1px, 1px, 1px);
+//     padding: 0;
+//     border: 0;
+//     height: 1px;
+//     width: 1px;
+//     overflow: hidden;
+//   }
+  
+//   /* Search icon end */
