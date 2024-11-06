@@ -15,7 +15,7 @@ export const ProductProvider = ({ children }) => {
         console.log("fetching step 2");
 
         const response = await axios.get(
-          `http://localhost:5500/api/fetch-Product`
+          `https://demo-ferryella2.vercel.app/api/fetch-Product`
         );
         console.log("response in fetchproduct", response.data);
         setProduct(response.data);
